@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html >
+<html lang="en" >
+<head >
+<meta charset="UTF-8" >
+<title > Nathan Klaassen</title >
+<link rel="stylesheet" href="style.css" >
+</head >
+<body >
+
+<div class="container" >
+
+<header >
+<h1 > Nathan Klaassen</h1 >
+<p class="subtitle" > Systems Engineer | Quality Systems | Modular Architecture</p >
+</header >
+
+<section >
+<h2 > Project: KLOx</h2 >
+<p >
+KLOx is a modular Quality Management System designed to support scalable,
+compliant, and commercialization-ready GMP operations.
+</p >
+</section >
+
+<section >
+<h2 > Why It Exists</h2 >
+<p >
+Many legacy QMS platforms are rigid, fragmented, or not built for modern
+biotech scaling. KLOx is being built to demonstrate how modular architecture,
+risk-based workflows, and clean system design can support growth from
+clinical to commercial manufacturing.
+</p >
+</section >
+
+<section >
+<h2 > Current Progress</h2 >
+<ul >
+<li > Backend architecture initialized</li >
+<li > Modular structure defined</li >
+<li > Initial database models drafted</li >
+<li > Authentication flow prototyped</li >
+</ul >
+</section >
+
+<section >
+<h2 > GitHub</h2 >
+<p >
+<a href="https://github.com/NK-KLO/KLYx" target="_blank" >
+View Project Repository
+</a >
+</p >
+</section >
+
+</div >
+
+</body >
+</html >
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: #e2e8f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #94a3b8;
+}
+
+h2 {
+    margin-top: 40px;
+    border-bottom: 1px solid #334155;
+    padding-bottom: 5px;
+}
+
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
